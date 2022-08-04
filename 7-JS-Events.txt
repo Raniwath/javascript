@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+     <!-- ......................................................................... -->
+
+     <!--..... onclick => -->
+
+	<h1>Onclick</h1>  
+	<button onclick="myhyd()">Click Me</button> 
+	<hr>              
+
+	<!-- .......................................................................-->
+
+	<!--...... onmousedown => -->
+     
+    <h1>Onmousedown</h1>
+	<button onmousedown="down()">Click Me</button>
+    <hr>
+
+    <!-- .......................................................................-->
+
+	<!--...... onmouseup => -->	
+
+	<h1>Onmouseup</h1>
+	<button onmouseup="up()">Click Me</button>
+    <hr>
+
+    <!-- .......................................................................-->
+
+	<!--...... onmouseover => -->	
+
+	<h1>Onmouseover</h1>
+	<button onmouseover="over()">Click Me</button>
+    <hr>
+
+    <!-- .......................................................................-->
+
+	<!--...... onmouseover => -->	
+
+	<h1>Onmouseout</h1>
+	<button onmouseout="out()">Click Me</button>
+    <hr>
+
+    <!-- .......................................................................-->
+
+	<!--...... onmouseenter => -->	
+
+	<h1>Onmouseenter</h1>
+	<button onmouseenter="enter()">Click Me</button>
+    <hr>
+
+    <!-- .......................................................................-->
+
+	<!--...... onmouseleave => -->	
+
+	<h1>Onmouseleave</h1>
+	<button onmouseleave="leave()">Click Me</button>
+    <hr>
+
+    <!-- .......................................................................-->
+
+	<!--...... onmousemove => -->	
+
+	<h1>Onmousemove</h1>
+	<button onmousemove="move()">Click Me</button>
+    <hr>
+
+    <!-- .......................................................................-->
+
+	<!--...... onkeydown => -->	
+
+	<h1>Onkeydown</h1>
+	<button onkeydown="keydown()">Click Me</button>
+    <hr>
+
+    <!-- .......................................................................-->
+
+	<!--...... onkeyup => -->	
+
+	<h1>Onkeyup</h1>
+	<button onkeyup="keyup()">Click Me</button>
+    <hr>
+
+    <!-- .......................................................................-->
+
+	<!--...... onkeypress => -->	
+
+	<h1>Onkeypress</h1>
+	<button onkeypress="keypress()">Click Me</button>
+    <hr>
+
+
+
+	<script>
+
+		//.....onclick =>
+		
+		function myhyd(){
+			document.body.style.backgroundColor='#Ddde00';
+			document.body.style.color='Darkorange';
+		}
+
+        function mypune(){
+			document.body.style.backgroundColor='#ff00df';
+			document.body.style.color='Darkred';
+		}
+
+        function myngp(){
+			document.body.style.backgroundColor='#00DDfe';
+			document.body.style.color='Green';
+		}
+
+      // .........................................................................
+
+        //.....onmousedown =>
+
+        function down(){
+        	document.body.style.backgroundColor='#B5AF39';
+        	document.body.style.color='Skyblue';
+        }
+
+      // .........................................................................
+
+        //.....onmouseup =>
+
+        function up(){
+        	document.body.style.backgroundColor='#6ED885';
+        	document.body.style.color='#1E225B';
+        }
+
+      // .........................................................................
+
+       //.....onmouseup =>
+
+        function over(){
+        	document.body.style.backgroundColor='#34CCA9';
+        	document.body.style.color='#C958C4';
+        }
+
+        // .........................................................................
+
+       //.....onmouseout =>
+
+        function out(){
+        	document.body.style.backgroundColor='#D9A0E9';
+        	document.body.style.color='#F22C77';
+        }
+
+        // .........................................................................
+
+       //.....onmouseenter =>
+
+        function enter(){
+        	document.body.style.backgroundColor='#C67C90';
+        	document.body.style.color='#A74B64';
+        }
+
+        // .........................................................................
+
+       //.....onmouseleave =>
+
+        function leave(){
+        	document.body.style.backgroundColor='#62E1CA';
+        	document.body.style.color='#EFA11A';
+        }
+
+        // .........................................................................
+
+       //.....onmousemove =>
+
+        function move(){
+        	document.body.style.backgroundColor='#D4F35B';
+        	document.body.style.color='#575DC5';
+        }
+
+        // .........................................................................
+
+       //.....onkeydown =>
+
+        function keydown(){
+        	document.body.style.backgroundColor='#A5A7BB';
+        	document.body.style.color='#538A19';
+      }
+
+      // .........................................................................
+
+       //.....onkeyup =>
+
+        function keyup(){
+        	document.body.style.backgroundColor='#E9C85A';
+        	document.body.style.color='black';
+      }
+
+      // .........................................................................
+
+       //.....onkeypress =>
+
+        function keypress(){
+        	document.body.style.backgroundColor='#614C05';
+        	document.body.style.color='white';
+      }
+        
+
+
+
+	</script>
+
+</body>
+</html>

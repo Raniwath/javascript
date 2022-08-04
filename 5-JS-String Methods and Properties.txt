@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head> 
+<body>
+
+   <script>
+
+   	// length Property;
+   	
+    var great = "Welcome to my channel";
+    document.write(great.length);
+
+    document.write("<br>");
+    document.write("<br>");
+
+    //////////////////////////////////////////////////
+
+    // charAt() Method;
+
+    var great = "Welcome to my channel";
+    document.write(great.charAt(6));
+
+    document.write("<br>");
+    document.write("<br>");
+
+    //////////////////////////////////////////////////
+
+   	// indexOf() Method;
+   	
+    var great = "Welcome to my channel";
+    document.write(great.indexOf("n"));
+
+    document.write("<br>");
+    document.write("<br>");
+
+    //////////////////////////////////////////////////
+
+    // lastIndexOf() Method;
+   	
+    var great = "Welcome to my channel";
+    document.write(great.lastIndexOf("n"));
+
+    document.write("<br>");
+    document.write("<br>");
+
+    //////////////////////////////////////////////////
+
+    // replace() Method;
+   	
+    var great = "Welcome to my channel";
+    document.write(great.replace("my","our"));
+
+    document.write("<br>");
+    document.write("<br>");
+
+    //////////////////////////////////////////////////
+
+    // toUpperCase() Method;
+   	
+    var great = "Welcome to my channel";
+    document.write(great.toUpperCase("great"));
+
+    document.write("<br>");
+    document.write("<br>");
+
+    //////////////////////////////////////////////////
+
+     // toLowerCase() Method;
+   	
+    var great = "Welcome to my channel";
+    document.write(great.toLowerCase("great"));
+
+    document.write("<br>");
+    document.write("<br>");
+
+    //////////////////////////////////////////////////
+
+     // concat() Method;
+   	
+    var great = "Welcome to my channel";
+    var awesome = " And Plz share this channel";
+    document.write(great.concat(awesome));
+
+    document.write("<br>");
+    document.write("<br>");
+
+    //////////////////////////////////////////////////
+
+   </script>
+   
+
+</body>
+</html>

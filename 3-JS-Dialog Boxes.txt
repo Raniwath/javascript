@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<button onclick="myfun()">Click Me</button>
+
+     <script>
+
+
+     	// Alert =>
+     	
+         alert("Hey!\nYour Registration is successful.\nThank You !");
+
+         alert("https://www.w3schools.com/");
+
+         /////////////////////////////////////////////////////////////////////
+
+         // Prompt Box =>
+
+         var name = prompt("What is your name ?");
+
+         if(name!=" ")
+         {
+         	document.write("Nice to meet you " + name);
+         }
+
+         /////////////////////////////////////////////////////////////////////
+
+         // Confirmation Box =>
+
+         function myfun()
+        {
+
+         var confm = confirm("Do you want to visit this website ?");
+
+         if(confm == true)
+         {
+         	window.open("https://www.facebook.com/");
+         	return true;
+         }
+         else
+         {
+         	document.write("User doesn't want to visit this page.");
+         	return false;
+         }
+        }
+
+
+     </script>
+
+</body>
+</html>

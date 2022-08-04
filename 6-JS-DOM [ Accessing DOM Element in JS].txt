@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+                              
+	<h1 id="thapa">Hello World</h1>
+
+	<h1 class="text">How r u ?...1</h1>
+
+	<h2 class="text">How r u ?...2</h2>
+
+	<p>How r u ?...3</p>
+
+	<p>I am fine</p>
+
+	<script>
+
+		// How to Access Element by "ID" => (used Element)
+		
+         var id = document.getElementById("thapa").innerHTML;
+         document.write(id);
+         document.write("<br>");
+
+         //...........................................................
+
+         // How to Access Element by "Class" => (used Elements)
+
+         var Class = document.getElementsByClassName("text")[1].innerHTML;
+         document.write(Class);
+         document.write("<br>");
+
+         //..........................................................
+
+
+         // How to Access Element by "TagName" => 
+
+         var tag = document.getElementsByTagName("p");
+         // document.write("tag");
+         console.log(tag);
+         document.write("<br>");
+
+        //..........................................................
+
+
+         // How to Access First Element =>
+
+         var a = document.querySelector("p").innerHTML;
+         document.write(a);
+
+
+
+	</script>
+
+</body>
+</html>

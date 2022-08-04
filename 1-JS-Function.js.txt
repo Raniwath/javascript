@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script>
+
+	// without using parameters
+
+	sum();
+	
+     function sum()
+     {
+     	var a=10;
+     	var b=5;
+     	var add=a+b;
+     	document.write(add);
+     	document.write("<br>");
+      document.write("<br>");
+
+     }
+
+     ////////////////////////////////////////////////////////////////
+
+     // with using parameters
+
+     sum(10,10);
+     sum(3,5);
+     sum(5,8);
+     sum(12,5);
+
+     function sum(a,b)
+     {
+     	  var add=a+b;
+     	  document.write("The sum of a & b is " + "=" + add + "<br>")
+     	  document.write("<br>");
+     }
+
+     ///////////////////////////////////////////////////////////////
+
+     // Using return value
+
+      var store=sum(10,30);
+      document.write("Sum of a & b is " + store + "<br>")
+
+     function sum(a,b) 
+     {
+       var add= a+b;
+       return add;
+     }                
+
+</script>
+</body>
+</html>

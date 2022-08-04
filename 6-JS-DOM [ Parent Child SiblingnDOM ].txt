@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1 id="thapa">Hello World</h1>
+
+	<h1 class="text">How r u ?...1</h1>
+
+	<h2 class="text">How r u ?...2</h2>
+
+	<p>How r u ?...3</p>
+
+	<p>I am fine</p>
+
+	<ul><li>Like</li>
+		<li>Share</li>
+		<li>Subscribe</li></ul> 
+
+	<script>
+		
+    // How to access children of a body =>
+
+    var child = document.body.children;
+    console.log(child);
+
+    //............................................................
+
+    // How to add new child in a body =>
+
+    var para = document.createElement("p");
+
+    var textNode = document.createTextNode("Ella Unnaro");
+
+    para.appendChild(textNode);
+
+    console.log(para);
+
+    //.....I want to show this content not in console.....//
+
+    document.body.appendChild(para);
+
+    //............................................................
+
+    // How to access firstChild and lastChild =>
+
+    var list = document.querySelector("ul");
+    console.log(list);
+
+    console.log(list.firstChild);
+    console.log(list.lastChild);
+
+    //...........................................................
+
+    // How to access Siblings =>
+
+    var sibling = thapa.nextElementSibling;
+    console.log(sibling);
+
+    var sibling = thapa.nextElementSibling.nextElementSibling;
+    console.log(sibling);
+
+    //...........................................................
+
+    // How to access Parent =>
+
+    var list = document.querySelector("ul");
+    console.log(list);
+
+    console.log(list.parentNode);
+    
+    //..........................................................
+
+    //DOM CSS Style =>
+
+    //...........One By One Style............//
+
+    var style = document.getElementById("thapa").style.color='red';
+    document.write("style");
+
+    //............All at once...............//
+
+    var stylecolor = document.getElementById("thapa").setAttribute("style","color:red; backgroung-color: pink; text-align: center; height: 200px");
+    document.write("stylecolor");
+
+	</script>
+
+</body>
+</html>

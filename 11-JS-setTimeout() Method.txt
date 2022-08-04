@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+     <button onclick="clearInterval(timeout)"> setTimeout = Click Here </button>
+     <p id="setid"></p>
+
+	<script>
+	
+	var timeout = setTimeout(settime, 3000);
+
+	function settime() {
+	     document.getElementById('setid').innerHTML = "Happy Birthday";
+	}
+
+
+
+	</script>
+
+</body>
+</html>

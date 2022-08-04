@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+ <script>
+	var info = {
+                  Firstname : "Komal",
+                  Lastname : "Wath",
+                  Age  : 27,
+                  Profession : "Web Developer"
+	           }
+
+	     // Need One Property =>
+
+	      console.log(info.Firstname);
+          
+    
+         // Change the property name =>
+
+         info.Profession="Software Engineer";
+         console.log(info);
+
+         
+         // Add a new property =>
+
+         info.Middlename = "Rajendra";
+         console.log(info);
+
+
+         // Delete Property name =>
+
+         delete info.Middlename;
+
+
+</script>	           
+
+</body>
+</html>

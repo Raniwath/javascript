@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script>
+
+         // Array;
+
+		var array = ['Komal', 'Payal', 'Rani', 'Krishna'];
+		document.write(array);
+		document.write("<br>");
+		document.write("<br>");
+
+
+////////////////////////////////////////////////////////////////
+
+// Array Properties;
+
+  //////// Length Property =>
+
+  var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+
+  var length = array.length;
+
+  document.write(array);
+  document.write("<br>");
+
+  document.write("The length of array element is " + "= " + length);
+
+  document.write("<br>");
+  document.write("<br>");
+
+  /////////////////////////////////////////////////////////////
+
+  /////// sort() Method =>
+
+  var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+
+  array.sort();
+
+  document.write("Using sort() method "+ ": " +array);
+
+  document.write("<br>");
+  document.write("<br>");
+
+////////////////////////////////////////////////////////////////
+
+//////// push() Method =>
+
+var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+ 
+array.push('Tirthu');
+
+document.write("Using push() method "+ ": " +array);
+
+ document.write("<br>");
+ document.write("<br>");
+
+ ////////////////////////////////////////////////////////////////
+
+ //////// pop() Method =>
+
+
+var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+ 
+array.pop();
+
+document.write("Using pop() method "+ ": " +array);
+
+ document.write("<br>");
+ document.write("<br>");
+
+////////////////////////////////////////////////////////////////
+
+//////// shift() Method =>
+
+var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+ 
+array.shift();
+
+document.write("Using shift() method "+ ": " +array);
+
+ document.write("<br>");
+ document.write("<br>");
+
+
+////////////////////////////////////////////////////////////////
+
+//////// unshift() Method =>
+
+var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+ 
+array.unshift('Jyoti');
+
+document.write("Using unshift() method "+ ": " +array);
+
+ document.write("<br>");
+ document.write("<br>");
+
+
+////////////////////////////////////////////////////////////////
+
+//////// reverse() Method =>
+
+var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+ 
+array.reverse();
+
+document.write("Using reverse() method "+ ": " +array);
+
+ document.write("<br>");
+ document.write("<br>");
+
+
+////////////////////////////////////////////////////////////////
+
+//////// isArray() Method =>
+
+var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+ 
+var check = Array.isArray(array);
+
+document.write("Using isArray() method "+ ": " +check);
+
+ document.write("<br>");
+ document.write("<br>");
+
+// var array = 1;   o/p = false
+
+
+////////////////////////////////////////////////////////////////
+
+//////// concat() Method =>
+
+var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+ 
+var check = ['Jyoti', 'Tirthu', 'Vaishali'];
+
+document.write("Using concat() method "+ ": " + array.concat(check));
+
+ document.write("<br>");
+ document.write("<br>");
+
+
+////////////////////////////////////////////////////////////////
+
+//////// indexOf() Method =>
+
+var array = ['Komal', 'Rani', 'Payal', 'Wath'];
+
+var check = ['Jyoti', 'Tirthu', 'Vaishali'];
+
+document.write("Using indexOf() method for array object"+ ": " + array.indexOf('Rani'));
+
+document.write("<br>")
+
+document.write("Using indexOf() method for check object "+ ": " + check.indexOf('Vaishali'));
+
+
+ document.write("<br>");
+ document.write("<br>");
+
+	</script>
+
+</body>
+</html>

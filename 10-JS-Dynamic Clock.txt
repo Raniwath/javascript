@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<button> setInterval = Click Here </button>
+	<br>
+	<br>
+
+    <!-- clearInterval() method => -->
+
+    <button onclick="clearInterval(clock)"> clearInterval = Click Here </button>
+	<br>
+	<p id="dynamic"></p>
+
+<script>
+
+	  // setInterval() method =>
+	
+      var clock = setInterval(showclock, 1000);
+
+      function showclock()
+      {
+      	var d = new Date();
+      	var time = d.toLocaleTimeString();
+      	document.getElementById('dynamic').innerHTML = time;
+      }
+        
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script>
+		
+        var add = "Komal";
+
+        var sum = new String("Komal");
+
+        document.write(add==sum);
+        document.write("<br>");
+        document.write(typeof(sum));
+
+        document.write("<br>");
+        document.write("<br>");
+
+     ///////////////////////////////////////////////////////
+
+
+        var add = "Komal";
+
+        var sum = new String("Komals");
+
+        document.write(add==sum);
+        document.write("<br>");
+        document.write(typeof(sum));
+        document.write("<br>");
+        document.write(typeof(add));
+	</script>
+
+</body>
+</html>

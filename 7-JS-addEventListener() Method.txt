@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<button id="mydata">Click Here</button>
+	<p id="demo"></p>
+
+	<script>
+
+		// Add an Event Handler to an element =>
+
+		document.getElementById("mydata").addEventListener("click", myfun);
+
+		function myfun()
+		{
+		alert('This is a addEventListener() Method');
+	    }
+
+	    // ----------------OR---------------
+
+	    // document.getElementById("mydata").addEventListener("click",myFun(){alert("This is a addEventListener() Method");}
+	    // 	);
+
+	    // .................................................................................
+
+	    // Add many Event Handler to the same element =>
+
+         var x = document.getElementById("mydata");
+         x.addEventListener("click", myFunction);
+         x.addEventListener("click", otherFunction);
+
+         function myFunction(){
+         	alert("First Function");
+         }
+
+         function otherFunction(){
+         	alert("Other Function");
+         }
+		
+		// --------------------OR-------------------
+
+		// var y = document.getElementById("mydata");
+		// y.addEventListener("mouseover", oneFun);
+		// y.addEventListener("click", twoFun);
+		// y.addEventListener("mouseout", threeFun);
+
+		// function oneFun(){
+		// 	document.getElementById("demo").innerHTML += "Moused Over! <br>";
+  //        }
+
+  //       function twoFun(){
+  //        	document.getElementById("demo").innerHTML += "Clicked! <br>";
+  //        }
+
+  //       function threeFun(){
+  //           document.getElementById("demo").innerHTML += "Moused Out!";
+  //        }
+
+         // ...............................................................
+
+         // Passing Parameters =>
+
+         let p1=3;
+         let p2=5;
+
+         document.getElementById("mydata").addEventListener("click", function(){myFunction(p1,p2);});
+
+         function myFunction(a,b)
+         {
+         	document.getElementById("demo").innerHTML = a*b;
+         }
+
+         // ..............................................................
+
+         // removeEventListener() Method =>
+
+         var x=document.getElementById("mydata");
+         x.addEventListener("click", First);
+
+         function First()
+         {
+         	document.getElementById("demo").innerHTML = "Happy Birthday";
+         }
+
+         //####### But I don't want to show this content after clicking on button =>
+              
+          var x=document.getElementById("mydata");
+         x.addEventListener("click", First);
+
+         function First()
+         {
+         	document.getElementById("demo").removeEventListener("click",First);
+         }
+
+	</script>
+
+</body>
+
+</html>

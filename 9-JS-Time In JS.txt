@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script>
+		
+	   var d = new Date();
+	   var t = d.getTime();
+
+	   var hours = d.getHours();
+	   var minutes = d.getMinutes();
+	   var seconds = d.getSeconds();
+
+	   setInterval(d);
+
+	   document.write(hours + ":" + minutes + ":" + seconds);
+
+	</script>
+
+</body>
+</html>
